@@ -2,12 +2,10 @@ let select=document.querySelectorAll('#dropbox')
 let input=document.getElementById('input')
 let button=document.getElementById('btn')
 let Result=document.getElementById('result')
+
 fetch('https://api.frankfurter.app/currencies')
 .then(resp=>resp.json())
 .then(resp=>displaydropbox(resp))
-
-
-
 
 function displaydropbox(resp){
     //Object.entries is used to covert object to array
@@ -24,7 +22,7 @@ button.addEventListener('click',()=>{
     let curr2=select[1].value
     let inputval=input.value
     if (curr1===curr2){
-        alert("invalid input")
+        alert("invalid input, Choose different currencies")
     }
     else{
         convert(curr1,curr2,inputval)
