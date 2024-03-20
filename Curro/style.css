@@ -17,4 +17,78 @@ body{
     font-weight: 400;
     font-style: normal;
   }
-  
+
+#container{
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15%;
+    border-radius: 20px;
+    position: absolute;
+    padding-right: 2rem;
+}
+#errordisplay{
+    background-color: red;
+}
+#box{
+    display: flex;
+    width:25vw;
+    height:20vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    padding-bottom: 0%;
+}
+
+#dropbox{
+padding-left: 57px;
+padding-right: 57px;
+padding-top: 5px;
+padding-bottom: 5px;
+border: none;
+background-color:  goldenrod;;
+border-radius: 3px;
+margin-bottom: 5px;
+}
+#result,#input{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: silver;
+    border: none;
+    border-radius: 3px;
+    padding-right: 1.7px;
+    padding-left: 1.7px;
+}
+h1{
+    margin-left: 10.5rem;
+    color: goldenrod;
+}
+h3{
+    margin-left: 8.5rem;
+    color: goldenrod;
+}
+
+#btn{
+    border: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin-left: 11rem;
+    margin-bottom: 2rem;
+    background-color: rgb(181, 53, 6);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ #errordisplay1{
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem; 
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 3px;
+
+} 
