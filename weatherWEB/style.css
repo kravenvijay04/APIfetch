@@ -3,8 +3,42 @@
     margin: 0%;
     box-sizing: border-box;
 }
-#container{
-    background-color: rgb(102, 102, 149);
-    width: 20vw;
-    height: 10vh;
+body{
+    background-image: url(img/blue.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+#shape1{
+    background-color:rgba(239, 239, 239, 0.753);
+    height: 15vh;
+    width: 8vw;
+    z-index: -1;
+    margin-top: 14%;
+    position: fixed;
+    margin-left: 33.5%;  
+    border-radius: 100%; 
+}
+#shape2{
+    background-color:rgba(239, 239, 239, 0.753);
+    height: 15vh;
+    width: 8vw;
+    z-index: -1;
+   position: fixed;
+    margin-left: 55%;  
+    border-radius: 100%; 
+    margin-top: 21%;
+}
+#container{
+    max-width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.284);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-left: 39%;
+    margin-top: 16%;
+    border-radius: 10px;
+    position: absolute;
+padding: 40px;
+} 
