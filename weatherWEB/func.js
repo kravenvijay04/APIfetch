@@ -6,7 +6,7 @@ let key="09cebc77610ed3da4b07a96944437779";
 let getWeather = () => {
   let cityValue = cityRef.value;
   if (cityValue.length == 0) {
-    result.innerHTML = `<h3 class="msg">Please enter a city name</h3>`;
+    result.innerHTML = `<h3 class="msg1">Please enter a city name</h3>`;
   }
 
   else {
@@ -26,7 +26,7 @@ let getWeather = () => {
         <h2>${data.name}</h2>
         <h4 class="weather">${data.weather[0].main}</h4>
         <h4 class="desc">${data.weather[0].description}</h4>
-        <img src="https://openweathermap.org/img/w/${data.weather[0].icon}.png">
+        <img id="icon" src="https://openweathermap.org/img/w/${data.weather[0].icon}.png">
         <h1>${data.main.temp} &#176;</h1>
         <div class="temp-container">
             <div>
@@ -41,7 +41,7 @@ let getWeather = () => {
         `;
       })
       .catch(() => {
-        result.innerHTML = `<h3 class="msg">City not found</h3>`;
+        result.innerHTML = `<h3 class="msg2">City not found</h3>`;
       });
   }
 };
