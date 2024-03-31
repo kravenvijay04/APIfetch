@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: "Shantell Sans", cursive;
     background-image: url(img/blue.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -11,6 +12,19 @@ body{
     background-size: cover;
 }
 
+#btn{
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    padding: 6px;
+    color: rgb(0, 136, 255);
+
+}
+.msg{
+    font-size: medium;
+    padding-top: 20px;
+    margin-left: 4px;
+}
 #shape1{
     background-color:rgba(239, 239, 239, 0.753);
     height: 15vh;
@@ -26,7 +40,7 @@ body{
     height: 15vh;
     width: 8vw;
     z-index: -1;
-   position: fixed;
+    position: fixed;
     margin-left: 55%;  
     border-radius: 100%; 
     margin-top: 21%;
@@ -40,5 +54,12 @@ body{
     margin-top: 16%;
     border-radius: 10px;
     position: absolute;
-padding: 40px;
+    padding: 40px;
 } 
+
+#search{
+    border: none; 
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+
