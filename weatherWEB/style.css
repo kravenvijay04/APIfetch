@@ -91,3 +91,12 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+.temp-container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    margin-left: 7px;
+}
